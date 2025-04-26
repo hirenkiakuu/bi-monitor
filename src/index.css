@@ -355,22 +355,33 @@ template {
 /* normalize ^^^ */
 
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 1.5;
-  font-weight: 400;
+}
+
+#root {
+  /* height: 100%; */
+  min-height: 100vh;
 }
 
 * {
   box-sizing: border-box;
 }
 
-ul {
+html {
+  min-height: 100%;
+}
+
+ul,
+p {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 a {
+  text-decoration: none;
+  color: inherit;
 }
 
 a:hover {
@@ -378,13 +389,28 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
+  max-width: 1920px;
+  /* height: 100%; */
   min-height: 100vh;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
 h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
 }
 
 /* @media (prefers-color-scheme: light) {

@@ -1,0 +1,23 @@
+.sidebar {
+  border-right: 1px solid #f0f0f0;
+  padding: 20px;
+  width: 300px;
+  min-height: 100%;
+
+  .tools-area {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 100%;
+  }
+
+  .select {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .file-upload {
+    display: flex;
+  }
+}

@@ -1,0 +1,11 @@
+.upload-wrapper {
+  width: 100%;
+
+  .ant-upload-list-item-name {
+    white-space: nowrap; // не переносить на новую строку
+    overflow: hidden; // скрыть то, что не помещается
+    text-overflow: ellipsis; // троеточие в конце
+    max-width: 100%; // не выходить за границы родителя
+    display: inline-block;
+  }
+}

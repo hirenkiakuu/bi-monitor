@@ -1,0 +1,16 @@
+.header {
+  padding: 22px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.header-title {
+  font-weight: 500;
+}
+
+.tools-area {
+  display: flex;
+  gap: 8px;
+}
